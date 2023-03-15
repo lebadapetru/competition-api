@@ -13,7 +13,7 @@
 ## How to set up the project
  - Run in the container: `php artisan migrate --seed`
 
-## Available endpoints:
+## Available endpoints ( be sure to send the json accept header ):
 
  - List competitions: GET `http://localhost/api/competitions`
  - Get one competition: GET `http://localhost/api/competitions/{competitionId}`
